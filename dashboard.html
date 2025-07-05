@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CTF Challenge - Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <div class="dashboard-card">
+            <div class="dashboard-header">
+                <h1>🎯 Dashboard CTF</h1>
+                <p>Isi data pribadi untuk melanjutkan</p>
+            </div>
+            
+            <form id="dataForm" class="data-form">
+                <div class="form-group">
+                    <label for="nama">Nama Lengkap</label>
+                    <input type="text" id="nama" name="nama" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="ttl">Tempat, Tanggal Lahir</label>
+                    <input type="text" id="ttl" name="ttl" placeholder="Contoh: Jakarta, 15 Januari 2000" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                
+                <button type="submit" class="submit-btn">Submit Data</button>
+            </form>
+            
+            <div id="resultMessage" class="result-message"></div>
+            
+            <div class="dashboard-pages">
+                <h2 style="margin-bottom:16px;">📚 Jelajahi Halaman Website</h2>
+                <div class="pages-grid">
+                    <a class="page-link" href="static/about.html"><span>ℹ️</span> About</a>
+                    <a class="page-link" href="static/faq.html"><span>❓</span> FAQ</a>
+                    <a class="page-link" href="static/privacy-policy.html"><span>🔒</span> Privacy Policy</a>
+                    <a class="page-link" href="static/terms-of-service.html"><span>📜</span> Terms of Service</a>
+                    <a class="page-link" href="static/features.html"><span>✨</span> Features</a>
+                    <a class="page-link" href="static/team.html"><span>👥</span> Team</a>
+                    <a class="page-link" href="static/our-mission.html"><span>🎯</span> Our Mission</a>
+                    <a class="page-link" href="static/blog.html"><span>📝</span> Blog</a>
+                    <a class="page-link" href="static/partners.html"><span>🤝</span> Partners</a>
+                    <a class="page-link" href="static/press.html"><span>📰</span> Press</a>
+                    <a class="page-link" href="static/roadmap.html"><span>🗺️</span> Roadmap</a>
+                    <a class="page-link" href="static/careers.html"><span>💼</span> Careers</a>
+                    <a class="page-link" href="static/docs.html"><span>📚</span> Docs</a>
+                    <a class="page-link" href="static/how-it-works.html"><span>⚙️</span> How it Works</a>
+                    <a class="page-link" href="static/pricing.html"><span>💰</span> Pricing</a>
+                    <a class="page-link" href="static/testimonials.html"><span>🌟</span> Testimonials</a>
+                    <a class="page-link" href="static/media.html"><span>🎥</span> Media</a>
+                    <a class="page-link" href="static/cookie-policy.html"><span>🍪</span> Cookie Policy</a>
+                    <a class="page-link" href="static/resources.html"><span>📦</span> Resources</a>
+                    <a class="page-link" href="static/newsletter.html"><span>📧</span> Newsletter</a>
+                </div>
+            </div>
+            
+            <div class="dashboard-footer">
+                <p>💡 Hint: Kumpulkan clue dari 20 halaman website</p>
+                <p>Data yang benar akan menampilkan flag!</p>
+            </div>
+        </div>
+    </div>
+    
+    <script src="dashboard.js"></script>
+</body>
+</html> 
