@@ -339,4 +339,56 @@ body {
         padding: 12px 20px;
         font-size: 0.95rem;
     }
+}
+
+/* Decode Section */
+.decode-section {
+    margin-top: 20px;
+    padding: 20px;
+    background: #f8f9fa;
+    border-radius: 10px;
+    border: 1px solid #dee2e6;
+}
+
+.decode-section h4 {
+    color: #333;
+    margin-bottom: 10px;
+    font-size: 1.1rem;
+}
+
+.decode-input {
+    margin: 15px 0;
+}
+
+.decode-btn {
+    background: linear-gradient(135deg, #007bff 0%, #0056b3 100%);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: 600;
+    transition: all 0.3s ease;
+}
+
+.decode-btn:hover {
+    background: linear-gradient(135deg, #0056b3 0%, #004085 100%);
+    transform: translateY(-1px);
+}
+
+.decode-result {
+    margin-top: 15px;
+    padding: 15px;
+    border-radius: 5px;
+    background: white;
+    border: 1px solid #dee2e6;
+}
+
+.decoded-flag {
+    text-align: center;
+}
+
+.decoded-flag p {
+    margin: 5px 0;
+    font-family: 'Courier New', monospace;
 } 
